@@ -1,0 +1,139 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+}
+.freeman-regular {
+  font-family: "Freeman", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #f24405;
+}
+
+.radio-canada-big-teamlogo {
+  font-family: "Radio Canada Big", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Navbar */
+
+nav {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  position: sticky;
+  z-index: 999;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  color: #348888;
+}
+.logo {
+  font-size: 30px;
+  text-align: center;
+}
+.nav-links span a {
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.nav-links span :hover {
+  text-decoration: underline;
+  color: #e43737;
+}
+.dashboard {
+  background-image: url("../assets/sports-stadium.jpg");
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+/* Content*/
+
+.content {
+  height: 80vh;
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.sidenav {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(253, 251, 247);
+}
+.sidenav span {
+  text-align: center;
+  width: 100%;
+  font-size: large;
+}
+
+.sidenav span:hover {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-weight: bolder;
+  border-bottom: solid 1px red;
+  border-top: solid 1px red;
+}
+.sidenav span a {
+  text-decoration: none;
+}
+.navlogo a {
+  margin-top: 40px;
+}
+.navlogo a :hover {
+  width: 75px;
+  box-shadow: 2px 2px 3px #f24405;
+  border-radius: 10%;
+}
+.dashboard {
+  display: grid;
+  grid-template-rows: 20% 1fr;
+}
+
+.team-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-logo h2 {
+  font-size: 40px;
+  color: #fa7f08;
+}
+table {
+  font-size: 25px;
+  backdrop-filter: blur(3px);
+  color: rgb(0, 0, 0);
+}
+/* Team Details*/
+
+.team-details {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+.stats {
+  position: absolute;
+  top: 5%;
+  height: 75%;
+  width: 75%;
+}

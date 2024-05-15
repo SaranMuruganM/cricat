@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Freeman&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../styles/dashboard.css" />
+    <script src="./dashboar.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="#" style="text-decoration: none"
+            ><h2 class="freeman-regular">CRICAT</h2></a
+          >
+        </div>
+        <div class="nav-links">
+          <span><a href="#" onclick="handleTable()">Home</a></span>
+          <span><a href="#">About</a></span>
+          <span><a href="#">Contact Us</a></span>
+          <span
+            ><a href="#"
+              ><img
+                src="../assets/profile.png"
+                alt="profile"
+                height="50px"
+                width="50px" /></a
+          ></span>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="sidenav" style="position: relative">
+          <div class="navlogo" style="top: 0; position: absolute">
+            <a href="#"
+              ><img
+                src="../assets/menu.png"
+                alt="navigate"
+                height="70px"
+                width="70px"
+                class="navicon"
+            /></a>
+          </div>
+
+          <span><a href="#">Dashboard</a></span>
+          <span><a href="#">History</a></span>
+          <span><a href="#">Players</a></span>
+          <span><a href="#">Team Stats</a></span>
+        </div>
+        <div class="dashboard">
+          <div class="team-logo radio-canada-big-teamlogo">
+            <a href="#"
+              ><img
+                src="../assets/throw.png"
+                alt="logo"
+                height="70px"
+                width="70px"
+                style="margin-right: 30px"
+            /></a>
+            <a href="#" style="text-decoration: none"><h2>XICC</h2></a>
+          </div>
+          <div class="team-details">
+            <div class="stats">
+              <table
+                border="1px"
+                style="
+                  width: 100%;
+                  height: 100%;
+                  text-align: center;
+                  justify-content: center;
+                "
+              >
+                <tr style="font-weight: bolder">
+                  <td>Played</td>
+                  <td>Won</td>
+                </tr>
+
+                <tr style="color: rgb(134, 0, 146); font-size: 30px">
+                  <td id="played"><b>10</b></td>
+                  <td style="color: rgb(10, 59, 0); font-size: 30px" ;>
+                    <b>6</b>
+                  </td>
+                </tr>
+
+                <tr style="font-weight: bolder">
+                  <td>Loss</td>
+                  <td>Draw</td>
+                </tr>
+
+                <tr font-weight:bold;>
+                  <td style="color: rgb(255, 0, 0); font-size: 30px" ;>
+                    <b>3</b>
+                  </td>
+                  <td style="color: rgb(2, 1, 1); font-size: 30px" ;>
+                    <b>1</b>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -143,6 +143,7 @@ a {
   color: black;
   font-size: large;
   margin: 0 auto 30px;
+  cursor: pointer;
 }
 
 .btn :hover {
